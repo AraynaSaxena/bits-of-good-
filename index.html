@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arayna Saxena - Bits of Good</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <img src="Images/image10.jpg" alt="Arayna Saxena" class="profile-pic">
+        <h1>Arayna Saxena</h1>
+        <p class="major">Major: Computer Science</p>
+        <p class="year">Year: First-Year</p>
+        <p class="location">From: India</p>
+        <p class="ngo-info">
+            In the past I have demonstrated great involvement in community outreach through my NGO:
+            <b>Uthaan Foundation</b>
+        </p>
+        <button class="btn" onclick="showNgoDetails()">Know More</button>
+        <a href="http://uthaanfoundation.com" target="_blank" class="btn">Visit Website</a>
+        <div id="ngo-details" class="hidden">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <img src="Images/image1.jpg" alt="Uthaan Image 1" class="swiper-image">
+                    <img src="Images/image2.jpg" alt="Uthaan Image 2" class="swiper-image">
+                    <img src="Images/image4.png" alt="Uthaan Image 2" class="swiper-image">
+                    <img src="Images/image5.jpg" alt="Uthaan Image 2" class="swiper-image">
+                    <img src="Images/image6.png" alt="Uthaan Image 2" class="swiper-image">
+                    <img src="Images/image8.jpg" alt="Uthaan Image 2" class="swiper-image">
+                    <img src="Images/image9.jpg" alt="Uthaan Image 2" class="swiper-image">
+                </div>
+                <button class="swiper-btn" onclick="prevImage()">❮</button>
+                <button class="swiper-btn" onclick="nextImage()">❯</button>
+            </div>
+            <div class="ngo-details-text">
+                <p><b>Founded Uthaan:</b> A Non-Governmental Organization registered with the Government of India to provide upliftment, education, empowerment & assistance.</p>
+                <ul>
+                    <li>Leading a team of 20+ members and 50+ volunteers.</li>
+                    <li>Established connections with government schools to support STEM education and connect volunteers as support teachers.</li>
+                    <li>Conducted workshops and awareness sessions for underprivileged communities.</li>
+                    <li>Impacted over 5000+ individuals through these initiatives.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
